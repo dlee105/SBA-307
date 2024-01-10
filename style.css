@@ -1,0 +1,29 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.container {
+  padding-top: 120px;
+  /*border: 1px solid;*/
+}
+
+.card-body {
+  text-align: start;
+}
+
+.the-logo {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 47.9%;
+}
+
+@media screen and (max-width: 1000px) {
+  .the-logo {
+    left: 5%;
+  }
+}
