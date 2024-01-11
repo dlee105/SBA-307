@@ -76,9 +76,15 @@ console.log(
   [leastgas, normalgas, mostgas],
   175 / 3,
   `\nHow many gallons of fuel will you need for the entire trip? 
-        \n- If travelling at 55mph, you will need ${leastgas} gallons of gas 
-        \n- If travelling at 60mph, you will need ${normalgas} gallons of gas 
-        \n- If travelling at 75mph, you will need ${mostgas} gallons of gas
+        \n- If travelling at 55mph, you will need ${parseFloat(
+          leastgas
+        ).toFixed(2)} gallons of gas 
+        \n- If travelling at 60mph, you will need ${parseFloat(
+          normalgas
+        ).toFixed(2)} gallons of gas 
+        \n- If travelling at 75mph, you will need ${parseFloat(mostgas).toFixed(
+          2
+        )} gallons of gas
   \nWill your budget be enough to cover the fuel expense?
         \n- The budget will be enough when travelling at or below 60mph because the price of gas when travelling at 55mph is \$${
           (1500 / 30) * 3
