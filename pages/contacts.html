@@ -111,7 +111,39 @@
           <p>420 Somewhere</p>
           <p>Kansas City, KS 66666</p>
         </div>
-        <div class="col-8 text-light">
+        <div class="col-4 hide">
+          <table class="table" style="position: relative; top: 5%">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Contacts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Duy</td>
+                <td>Le</td>
+                <td>@linkedin/duyvl3</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>John</td>
+                <td>Doe</td>
+                <td>@linkedin/JDude</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>@linkedin/JaneD</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-4 text-dark">
           <form
             style="
               backdrop-filter: blur(9px);
@@ -129,7 +161,9 @@
               />
             </div>
             <div class="form-group added-margin">
-              <label for="exampleFormControlSelect1">Example select</label>
+              <label for="exampleFormControlSelect1"
+                >SELECT AN INTERGER TO DO SOMETHING</label
+              >
               <select class="form-control" id="exampleFormControlSelect1">
                 <option>1</option>
                 <option>2</option>
@@ -140,7 +174,7 @@
             </div>
             <div class="form-group added-margin">
               <label for="exampleFormControlSelect2"
-                >Example multiple select</label
+                >SELECT AN INTERGER TO DO SOMETHING</label
               >
               <select
                 multiple
@@ -156,13 +190,22 @@
               </select>
             </div>
             <div class="form-group added-margin">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <label for="exampleFormControlTextarea1"
+                >Send your message here</label
+              >
               <textarea
                 class="form-control"
                 id="exampleFormControlTextarea1"
                 rows="3"
               ></textarea>
             </div>
+            <button
+              type="button"
+              class="btn"
+              style="background-color: rgb(23, 150, 235); align-self: center"
+            >
+              Base class
+            </button>
           </form>
         </div>
       </div>
@@ -208,23 +251,6 @@
             </div>
             <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-white">Products</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-white">Awards</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
             <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
                 <a href="#!" class="text-white">Help</a>
@@ -240,6 +266,7 @@
             </div>
             <!-- Grid column -->
           </div>
+          <!-- Grid row-->
           <!-- Grid row-->
         </section>
       </div>
