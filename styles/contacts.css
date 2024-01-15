@@ -1,0 +1,12 @@
+.input-style {
+  align-self: center;
+  width: 80%;
+  border: 0.5px solid rgba(2, 2, 2, 0.2);
+}
+
+.added-margin {
+  margin: auto;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

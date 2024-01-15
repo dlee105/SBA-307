@@ -1,0 +1,33 @@
+.lg-txt {
+  font-weight: bold;
+  scale: 1.2;
+  color: #7076f5;
+  text-shadow: 1px 1px 2px rgb(103, 11, 165), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.url-txt {
+  color: greenyellow;
+}
+
+.container {
+  padding-top: 0%;
+}
+
+.empty-block {
+  height: 60px;
+}
+
+.black-block {
+  background-color: black;
+  height: 80px;
+  padding-top: 25px;
+  border: 2px solid #868cff;
+  border-bottom: unset;
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel-caption {
+    padding-top: auto;
+    height: 100%;
+  }
+}
